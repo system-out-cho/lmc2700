@@ -4,6 +4,8 @@
 <title>Assignment 4</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="project_style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
@@ -24,6 +26,32 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Grid -->
 <div class="w3-row">
+
+   <!-- Top Navigation Menu (taken from W3 Schools)--> 
+   <div class="topnav">
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+    <a href="updates.html">Updates</a>
+    <a href="aboutme.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+               x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+  </script>
 
 <!-- Blog entries -->
 <div class="w3-col l8 s12">

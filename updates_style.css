@@ -66,4 +66,14 @@ span {
     position: relative;
     bottom: 300px;
   }
+
+  .home {
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -150px;
+  }
   

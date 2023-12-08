@@ -67,3 +67,17 @@ body {
     top: -400px;
     right: 100px;
   }
+
+  .home {
+    font-family: "poppins", sans-serif;
+    display: flex;
+    justify-content: left;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-left: 20px;
+  }
+
+  .active {
+    background-color: #cfcfcf;
+    color: white;
+  }

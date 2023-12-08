@@ -2,9 +2,37 @@
     <head>
         <title>Contact Page</title>
         <link rel="stylesheet" href="contact_style.css">
+        <link rel="stylesheet" href="project_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
+
+        <!-- Top Navigation Menu (taken from W3 Schools)--> 
+    <div class="topnav">
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
+    <a href="updates.html">Updates</a>
+    <a href="aboutme.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html">Home</a>
+    </div>
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+    </script>
         <div id="contact">
             <img src="elements/contact/Group 18.svg"/> 
         </div>
